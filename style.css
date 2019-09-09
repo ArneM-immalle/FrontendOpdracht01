@@ -1,11 +1,21 @@
+#movies {
+    margin-top: 2rem;
+}
+
 #movies th {
     background-color: #8ac1ff;
+    border-bottom: 2px solid rgb(0, 23, 124);
+    padding-top: 1rem;
 }
 
 #movies th:hover,
 #movies td:hover {
     background-color: black;
     color: white;
+}
+
+#movies td {
+    padding-left: 1rem;
 }
 
 .goodmovie {
