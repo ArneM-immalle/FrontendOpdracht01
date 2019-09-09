@@ -1,0 +1,13 @@
+#movies th {
+    background-color: #8ac1ff;
+}
+
+#movies th:hover,
+#movies td:hover {
+    background-color: black;
+    color: white;
+}
+
+.goodmovie {
+    background-color: greenyellow;
+}
