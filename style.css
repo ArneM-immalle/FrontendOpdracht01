@@ -1,5 +1,6 @@
-#movies {
+table#movies {
     margin-top: 2rem;
+    width: 100%;
 }
 
 #movies th {
