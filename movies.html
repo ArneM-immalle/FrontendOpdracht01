@@ -3,12 +3,37 @@
 <html lang="NL">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Movies</title>
-    <meta name="description" content="Movies">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Movies" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        table#movies {
+            margin-top: 2rem;
+            width: 100%;
+        }
+        
+        #movies th {
+            background-color: #8ac1ff;
+            border-bottom: 2px solid rgb(0, 23, 124);
+            padding-top: 1rem;
+        }
+        
+        #movies th:hover,
+        #movies td:hover {
+            background-color: black;
+            color: white;
+        }
+        
+        #movies td {
+            padding-left: 1rem;
+        }
+        
+        .goodmovie {
+            background-color: greenyellow;
+        }
+    </style>
 </head>
 
 <body>
